@@ -88,10 +88,10 @@ public class Message {
     }
     /**
      * Properly named getters and setters are necessary for Jackson ObjectMapper to work. You may use them as well.
-     * @param postedBy
+     * @param integer
      */
-    public void setPostedBy(Integer postedBy) {
-        this.postedBy = postedBy;
+    public void setPostedBy(Integer integer) {
+        this.postedBy = integer;
     }
     /**
      * Properly named getters and setters are necessary for Jackson ObjectMapper to work. You may use them as well.
